@@ -73,6 +73,7 @@ function createWindow() {
     height: 820,
     minWidth: 900,
     minHeight: 600,
+    icon: path.join(__dirname, '../logo.png'),
     backgroundColor: '#0f1117',
     titleBarStyle: 'hidden',
     titleBarOverlay: {

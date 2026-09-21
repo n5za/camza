@@ -1,0 +1,25 @@
+{
+  "name": "camza",
+  "productName": "Camza",
+  "version": "1.0.0",
+  "description": "Modern Linux Camera Application",
+  "main": "electron/main.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "electron:start": "electron ."
+  },
+  "dependencies": {
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.64",
+    "@types/react-dom": "^18.2.21",
+    "@vitejs/plugin-react": "^4.2.1",
+    "electron": "^29.1.0",
+    "vite": "^5.1.6"
+  }
+}

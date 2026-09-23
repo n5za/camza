@@ -53,7 +53,9 @@
       "category": "Graphics",
       "icon": "logo.png",
       "synopsis": "Premium Linux Camera App",
-      "maintainer": "n5za"
+      "maintainer": "n5za",
+      "desktopName": "camza.desktop",
+      "syncDesktopName": true
     }
   }
 }

@@ -14,7 +14,7 @@ Check out the landing page — features, one-line install & more:
 
 **👉 https://n5za.github.io/camza/**
 
-*The website source lives in [`site/`](./site/index.html) and is deployed automatically to GitHub Pages.*
+*The website source lives in [`site/`](./site/index.html) and is deployed to GitHub Pages (from the `gh-pages` branch).*
 
 ## ⚡ One-Line Install (Works on Any Distro)
 

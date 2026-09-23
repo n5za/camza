@@ -2,13 +2,23 @@
   "name": "camza",
   "productName": "Camza",
   "version": "1.0.0",
-  "description": "Modern Linux Camera Application",
+  "description": "Camza — Premium Linux camera app. Full hardware V4L2 sensor control, real-time WebGL shader filters, burst mode, auto-save to ~/Pictures & ~/Videos, premium dark glass UI.",
   "main": "electron/main.js",
   "type": "module",
+  "author": "n5za",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n5za/camza.git"
+  },
+  "homepage": "https://n5za.github.io/camza/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "electron:start": "electron ."
+    "start": "npm run build && electron .",
+    "electron:start": "electron .",
+    "dist": "vite build && electron-builder",
+    "dist:linux": "vite build && electron-builder --linux AppImage deb"
   },
   "dependencies": {
     "lucide-react": "^0.344.0",
@@ -20,6 +30,30 @@
     "@types/react-dom": "^18.2.21",
     "@vitejs/plugin-react": "^4.2.1",
     "electron": "^29.1.0",
+    "electron-builder": "^26.15.3",
     "vite": "^5.1.6"
+  },
+  "build": {
+    "appId": "io.github.n5za.camza",
+    "productName": "Camza",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "electron/**/*",
+      "logo.png",
+      "package.json"
+    ],
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb"
+      ],
+      "category": "Graphics",
+      "icon": "logo.png",
+      "synopsis": "Premium Linux Camera App",
+      "maintainer": "n5za"
+    }
   }
 }

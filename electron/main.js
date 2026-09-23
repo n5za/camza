@@ -207,7 +207,7 @@ ipcMain.handle('v4l2:getHardwareControls', async (event, devicePath) => {
     const controls = [];
 
     for (let line of lines) {
-      const match = line.match(/^\s*([a_z0-9_]+)\s+0x[0-9a-f]+\s+\(([a-z]+)\)\s*:(.*)$/i);
+      const match = line.match(/^\s*([a-zA-Z0-9_]+)\s+0x[0-9a-f]+\s+\(([a-z]+)\)\s*:(.*)$/i);
       if (match) {
         const key = match[1].trim();
         const type = match[2].trim();

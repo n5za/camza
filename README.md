@@ -1,8 +1,20 @@
 # Camza — Premium Linux Camera App 📸
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Platform](https://img.shields.io/badge/platform-Linux-blue.svg)](#)
+[![Built with](https://img.shields.io/badge/built%20with-Electron%20%2B%20React%20%2B%20WebGL-00e5ff.svg)](#)
+
 Camza is a feature-rich, high-performance desktop camera application for Linux, built with Electron, React, Vite, and WebGL. It provides a stunning glassmorphism interface and powerful real-time hardware/software enhancements designed to make even low-quality 10MB webcams look like high-end 50MB professional cameras! ✨
 
 ![Camza Logo](./logo.png)
+
+## 🌐 Official Website
+
+Check out the landing page — features, one-line install & more:
+
+**👉 https://n5za.github.io/camza/**
+
+*The website source lives in [`site/`](./site/index.html) and is deployed automatically to GitHub Pages.*
 
 ## ⚡ One-Line Install (Works on Any Distro)
 

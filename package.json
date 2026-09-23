@@ -1,6 +1,7 @@
 {
   "name": "camza",
   "productName": "Camza",
+  "desktopName": "camza.desktop",
   "version": "1.0.0",
   "description": "Camza — Premium Linux camera app. Full hardware V4L2 sensor control, real-time WebGL shader filters, burst mode, auto-save to ~/Pictures & ~/Videos, premium dark glass UI.",
   "main": "electron/main.js",
@@ -54,7 +55,6 @@
       "icon": "logo.png",
       "synopsis": "Premium Linux Camera App",
       "maintainer": "n5za",
-      "desktopName": "camza.desktop",
       "syncDesktopName": true
     }
   }
